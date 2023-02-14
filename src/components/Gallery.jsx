@@ -1,7 +1,11 @@
 function Gallery() {
     return(
         <div>
-            This is the Gallery section!!!
+            <h2>Gallery</h2>
+            {/* <img src="https://i.imgur.com/wWqQPiP.png" alt="ancient coin" />
+            <img src="https://i.imgur.com/vlYBd0t.png" alt="ancient coin" />
+            <img src="https://i.imgur.com/wWqQPiP.png" alt="ancient coin" />
+            <img src="https://i.imgur.com/vlYBd0t.png" alt="ancient coin" /> */}
         </div>
     )
 }

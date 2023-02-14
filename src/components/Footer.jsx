@@ -2,8 +2,8 @@ function Footer() {
 
   return (
     <footer>
-        <p>Designed by ViciVision 2023</p>
-        <p>Copyright &copy; 2023</p>
+        <div>Designed by ViciVision 2023</div>
+        <div>Copyright &copy; 2023</div>
     </footer>
   )
 }

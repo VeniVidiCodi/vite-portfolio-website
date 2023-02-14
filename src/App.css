@@ -1,9 +1,8 @@
 #root {
-  /* max-width: 1280px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* padding: 2rem; */
   /* text-align: center; */
- 
+
   }
 
 /* original logo code */
@@ -35,27 +34,41 @@
   }
 } */
 
+.App {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100vw;
+}
 
 .header {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   background-color: darkslategray;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch; /* STRETCHES TO ITS CONTAINER WIDTH */
+  justify-content: space-between;
+  /* max-width: 1280px; */
 }
 .nav-title {
   font-size: 2em;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  padding: 5px 15px;
 } 
 
 .nav-links {
+  padding: 5px 15px;
   display: flex;
-  /* flex: 1; */
+  align-items: center;
+  /* border: 1px solid red; */
 }
-.nav-links h4 {
-  padding: 0 10px;
-  border: 1px solid red;
+.nav-links div {
+  font-size: 1.2em;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
 
 }
 
@@ -72,5 +85,11 @@
 
 footer {
   background-color: darkslategray;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  padding: 0 40px;
 }
