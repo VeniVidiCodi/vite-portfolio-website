@@ -1,10 +1,11 @@
-function NavBar() {
+import { Link } from "react-router-dom"
 
+function NavBar() {
   return (
     <div className='nav-links'>
-        <h4>Works</h4>
-        <h4>Works</h4>
-        <h4>Works</h4>
+        <Link to='/'> Home </Link>
+        <Link to='/about'> About </Link>
+        <Link to='/contact'> Contact </Link>
     </div>
   )
 }

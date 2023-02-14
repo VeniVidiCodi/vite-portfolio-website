@@ -2,9 +2,10 @@ function Footer() {
 
   return (
     <footer>
-        <p>Designed by ViciDesign 2023</p>
+        <p>Designed by ViciVision 2023</p>
+        <p>Copyright &copy; 2023</p>
     </footer>
   )
 }
 
-export default Footer
+export default Footer;
